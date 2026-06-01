@@ -1,0 +1,16 @@
+{
+  "name": "json-config-manager",
+  "version": "1.0.0",
+  "description": "Robust JSON configuration manager with env interpolation and schema validation",
+  "main": "src/index.js",
+  "scripts": {
+    "test":    "node tests/ConfigManager.test.js",
+    "example": "node examples/usage.js"
+  },
+  "keywords": ["config", "configuration", "json", "env", "schema", "validation"],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "database": {
+    "host": "${DB_HOST}",
+    "port": "${DB_PORT}",
+    "name": "myapp_${NODE_ENV}",
+    "pool": {
+      "min": 2,
+      "max": 10
+    }
+  },
+  "server": {
+    "host": "0.0.0.0",
+    "port": 3000,
+    "https": false
+  },
+  "logging": {
+    "level": "info",
+    "format": "json"
+  },
+  "features": {
+    "darkMode": true,
+    "betaSignup": false
+  }
+}
